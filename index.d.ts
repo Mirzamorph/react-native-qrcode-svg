@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Image, ImageSourcePropType } from "react-native";
+import { ImageSourcePropType } from "react-native";
 
 declare class QRCode extends React.PureComponent<QRCodeProps, any> {}
 
@@ -25,6 +25,7 @@ export interface QRCodeProps {
   logoBorderRadius?: number;
   /* quiet zone in pixels */
   quietZone?: number;
+  borderRadius?: number;
   /* enable linear gradient effect */
   enableLinearGradient?: boolean;
   /* linear gradient direction */
